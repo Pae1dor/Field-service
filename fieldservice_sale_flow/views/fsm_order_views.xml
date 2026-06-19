@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Standalone list view for fsm.order.material (avoids inline comodel validation bug) -->
+    <record id="view_fsm_order_material_list" model="ir.ui.view">
+        <field name="name">fsm.order.material.list</field>
+        <field name="model">fsm.order.material</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="product_id"/>
+                <field name="product_qty"/>
+                <field name="product_uom_id"/>
+                <field name="qty_available" readonly="1"/>
+                <field name="state" readonly="1" widget="badge"
+                       decoration-success="state == 'done'"
+                       decoration-info="state == 'from_stock'"
+                       decoration-warning="state == 'pr_created'"
+                       decoration-muted="state == 'draft'"/>
+                <field name="picking_id" readonly="1"/>
+                <field name="purchase_request_id" readonly="1"/>
+                <field name="note"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Inherit FSM Order form -->
+    <record id="fsm_order_form_sale_flow" model="ir.ui.view">
+        <field name="name">fsm.order.form.sale.flow</field>
+        <field name="model">fsm.order</field>
+        <field name="inherit_id" ref="fieldservice.fsm_order_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Hidden computed fields — placed next to existing is_button -->
+            <xpath expr="//field[@name='is_button']" position="after">
+                <field name="pr_count" invisible="1"/>
+                <field name="picking_count" invisible="1"/>
+                <field name="invoice_count" invisible="1"/>
+            </xpath>
+
+            <!-- Smart buttons -->
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button type="object" name="action_view_sale"
+                        class="oe_stat_button" icon="fa-file-text-o"
+                        invisible="not sale_id">
+                    <div class="o_stat_info">
+                        <span class="o_stat_text">Quotation</span>
+                    </div>
+                </button>
+                <button type="object" name="action_view_pickings"
+                        class="oe_stat_button" icon="fa-truck"
+                        invisible="picking_count == 0">
+                    <field name="picking_count" widget="statinfo" string="Pickings"/>
+                </button>
+                <button type="object" name="action_view_pr"
+                        class="oe_stat_button" icon="fa-shopping-cart"
+                        invisible="pr_count == 0">
+                    <field name="pr_count" widget="statinfo" string="PR"/>
+                </button>
+                <button type="object" name="action_view_invoices"
+                        class="oe_stat_button" icon="fa-pencil-square-o"
+                        invisible="invoice_count == 0">
+                    <field name="invoice_count" widget="statinfo" string="Invoices"/>
+                </button>
+            </xpath>
+
+            <!-- sale_id field below oe_title -->
+            <xpath expr="//div[@class='oe_title']" position="after">
+                <group name="sale_link_group">
+                    <field name="sale_id" options="{'no_create': True}"/>
+                </group>
+            </xpath>
+
+            <!-- Materials tab — references separate list view (no inline comodel) -->
+            <xpath expr="//notebook" position="inside">
+                <page string="Materials / Parts" name="materials_page">
+                    <div class="mb-2">
+                        <button name="action_request_materials"
+                                string="Request Materials / Create PR"
+                                type="object"
+                                class="btn btn-primary"/>
+                    </div>
+                    <field name="material_ids"
+                           context="{'list_view_ref': 'fieldservice_sale_flow.view_fsm_order_material_list'}"/>
+                    <div class="mt-3" invisible="not sale_id">
+                        <button name="action_create_invoice"
+                                string="Create Invoice"
+                                type="object"
+                                class="btn btn-success"
+                                confirm="Confirm creating an invoice from the Sale Order?"/>
+                    </div>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+
+    <!-- Inherit FSM Order list: add sale_id column -->
+    <record id="fsm_order_list_sale_flow" model="ir.ui.view">
+        <field name="name">fsm.order.list.sale.flow</field>
+        <field name="model">fsm.order</field>
+        <field name="inherit_id" ref="fieldservice.fsm_order_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="sale_id" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

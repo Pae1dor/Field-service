@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_employee_form_inherit_name_th" model="ir.ui.view">
+        <field name="name">hr.employee.form.inherit.name.th</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <!-- Custom Field Work Address -->
+            <xpath expr="//div[@class='o_address_format']" position="replace">
+                <div class="o_address_format">
+                    <div class="row">
+                        <div class="col-6">
+                             <field name="private_country_id" placeholder="Country" class="o_address_country" 
+                                options="{'no_open': True, 'no_create': True}"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_state_id" placeholder="Province" class="o_address_state" 
+                                domain="[('country_id', '=', private_country_id)]" 
+                                options="{'no_create': True}"/>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="private_district_id" placeholder="District" class="o_address_district" 
+                                domain="[('state_id', '=', private_state_id)]" 
+                                options="{'no_create': True}"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_subdistrict_id" placeholder="SubDistrict" class="o_address_subdistrict" 
+                                domain="[('district_id', '=', private_district_id)]" 
+                                options="{'no_create': True}"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="private_zip" placeholder="ZIP" class="o_address_zip" readonly="1" 
+                                force_save="1"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_house_no" placeholder="House No" class="o_address_house"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="private_moo" placeholder="Moo" class="o_address_village"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_villa" placeholder="Villa" class="o_address_villa"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="private_alley" placeholder="Alley" class="o_address_alley"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_sub_alley" placeholder="Sub Alley" class="o_address_suballey"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="private_street_new" placeholder="Street" class="o_address_street"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_building" placeholder="Building" class="o_address_building"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="private_floor" placeholder="Floor" class="o_address_floor"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="private_room_no" placeholder="Room No" class="o_address_room"/>
+                        </div>
+                    </div>
+                
+                    <!-- Hidden fields -->
+                    <field name="private_street2" placeholder="Street 2..." class="o_address_street" invisible="1"/>
+                    <field name="private_street" invisible="1"/>
+                    <field name="private_city" placeholder="City" class="o_address_city" invisible="1"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

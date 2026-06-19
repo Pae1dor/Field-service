@@ -1,0 +1,7 @@
+<odoo noupdate="1">
+    <record id="fsm" model="ir.module.category">
+        <field name="name">Field Service</field>
+        <field name="sequence">20</field>
+        <field name="description">Manage field service operations: orders, teams, technicians, equipment.</field>
+    </record>
+</odoo>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Start IOT Modify address eng -->
+    <record id="view_partner_form_address_en" model="ir.ui.view">
+        <field name="name">res.partner.form.address.eng</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='function']" position="after">
+                <field name="branch" placeholder="รหัสสาขา"/>
+                <field name="cust_no" placeholder="รหัสลูกค้า"/>
+                <field name="district_en_name" readonly="1"/>
+                <field name="district_id" />
+                <field name="subdistrict_en_name" readonly="1"/>
+                <field name="house_no_en" placeholder="House No" class="o_address_house"/>
+                <field name="moo_en" placeholder="Moo" class="o_address_village"/>
+                <field name="villa_en" placeholder="Villa" class="o_address_villa"/>
+                <field name="alley_en" placeholder="Alley" class="o_address_alley"/>
+                <field name="sub_alley_en" placeholder="Sub Alley" class="o_address_suballey"/>
+                <field name="street_new_en" placeholder="Street" class="o_address_street"/>
+                <field name="building_en" placeholder="Building" class="o_address_building"/>
+                <field name="floor_en" placeholder="Floor" class="o_address_floor"/>
+                <field name="room_no_en" placeholder="Room No" class="o_address_room"/>
+            </xpath>
+
+            <!-- 1. ซ่อน field category_id ที่ตำแหน่งเดิม -->
+            <xpath expr="//field[@name='category_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='website']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_company_type_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='lang']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="website" widget="url"/>
+            </xpath>
+
+            <!--<xpath expr="//field[@name='mobile']" position="replace">-->
+            <!--    <field name="fax"/>-->
+            <!--</xpath>-->
+            <!--<xpath expr="//field[@name='mobile']/label" position="replace">-->
+            <!--    <label>Fax</label>-->
+            <!--</xpath>-->
+            <xpath expr="//field[@name='mobile']" position="attributes">
+                <attribute name="string">Fax</attribute>
+            </xpath>
+
+
+        </field>
+    </record>
+    <!-- End IOT Modify address eng -->
+
+    <record id="view_partner_form" model="ir.ui.view">
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="l10n_th_partner_name.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Address format section -->
+            <xpath expr="//div[@class='o_address_format']" position="replace">
+                <div class="o_address_format">
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="country_id" placeholder="Country" class="o_address_country"
+                                   options="{'no_open': True, 'no_create': True}"
+                                   readonly="type == 'contact' and parent_id"/>
+                        </div>
+                        <div class="col-6">
+                            <xpath expr="//field[@name='country_id']" position="after">
+                                <field name="state_id_th" placeholder="จังหวัด" class="o_address_state"
+                                />
+                            </xpath>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="district_id" placeholder="อำเภอ" class="o_address_district"
+                                   options="{'no_open': True, 'no_create': True}"
+                                   context="{'lang': lang}" domain="[('state_id', '=',  state_id_th)]"
+                                   readonly="type == 'contact' and parent_id"/>
+
+                        </div>
+                        <div class="col-6">
+                            <field name="subdistrict_id" placeholder="SubDistrict" class="o_address_subdistrict"
+                                   options="{'no_open': True, 'no_create': True}"
+                                   context="{'lang': lang}" domain="[('district_id', '=', district_id)]"
+                                   readonly="type == 'contact' and parent_id"/>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="house_no" placeholder="เลขที่บ้าน" class="o_address_house"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="moo" placeholder="หมู่ที่" class="o_address_village"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="villa" placeholder="ชื่อหมู่บ้าน" class="o_address_villa"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="alley" placeholder="ซอย" class="o_address_alley"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="sub_alley" placeholder="แยก" class="o_address_suballey"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="street_new" placeholder="ถนน" class="o_address_street"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="building" placeholder="อาคาร" class="o_address_building"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="floor" placeholder="ชั้น" class="o_address_floor"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="room_no" placeholder="เลขที่ห้อง" class="o_address_room"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="zip" placeholder="รหัสไปรษณีย์" class="o_address_zip" readonly="0"
+                                   force_save="1"
+                                   invisible_modifier="OR(country_id != %(base.th)d, subdistrict_id == False)"/>
+                        </div>
+                    </div>
+
+                    <!-- Hidden fields -->
+
+                    <field name="street2" invisible="1"/>
+                    <field name="street" invisible="1"/>
+                    <field name="city" invisible="1"/>
+                </div>
+            </xpath>
+
+            <!-- Invisible State Field -->
+            <xpath expr="//field[@name='country_id']" position="after">
+                <field name="state_id" placeholder="Province" class="o_address_state"
+                       readonly="type == 'contact' and parent_id" invisible="1"/>
+            </xpath>
+
+            <!-- Contact & Address Tab  สำหรับ Address Contact-->
+            <xpath expr="//div[@class='o_address_format'][@name='div_address']" position="replace">
+                <div class="o_address_format" name="div_address">
+                    <div class="row">
+                        <div class="col-12">
+                            <field name="country_id" placeholder="Country" class="o_address_country"
+                                   options="{'no_open': True, 'no_create': True}"
+                                   context="{'lang': lang}" readonly="type == 'contact' and parent_id"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="district_id" placeholder="อำเภอ" class="o_address_district"
+                                   options="{'no_open': True, 'no_create': True}"
+                                   context="{'lang': lang}" domain="[('state_id', '=', state_id_th)]"
+                                   readonly="type == 'contact' and parent_id"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="subdistrict_id" placeholder="ตำบล" class="o_address_subdistrict"
+                                   options="{'no_open': True, 'no_create': True}"
+                                   context="{'lang': lang}" domain="[('district_id', '=', district_id)]"
+                                   readonly="type == 'contact' and parent_id"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="house_no" placeholder="เลขที่บ้าน" class="o_address_house"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="moo" placeholder="หมู่ที่" class="o_address_village"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="villa" placeholder="ชื่อหมู่บ้าน" class="o_address_villa"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="alley" placeholder="ซอย" class="o_address_alley"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="sub_alley" placeholder="แยก" class="o_address_suballey"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="street_new" placeholder="ถนน" class="o_address_street"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="building" placeholder="อาคาร" class="o_address_building"/>
+                        </div>
+                        <div class="col-6">
+                            <field name="floor" placeholder="ชั้น" class="o_address_floor"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="room_no" placeholder="เลขที่ห้อง" class="o_address_room"/>
+                        </div>
+                        <div class="col-6">
+                            <xpath expr="//field[@name='room_no']" position="after">
+                                <field name="zip" placeholder="รหัสไปรษณีย์" class="o_address_zip" readonly="0"
+                                       force_save="1"
+                                       invisible_modifier="OR(country_id != %(base.th)d, subdistrict_id == False)"/>
+                            </xpath>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <field name="state_id_th" placeholder="จังหวัด" class="o_address_state"
+                            />
+                            <!--                            <field name="state_id" placeholder="จังหวัด" class="o_address_state" options="{'no_open': True, 'no_create': True}"-->
+                            <!--                            context="{'lang': lang}" domain="[('country_id', '=', country_id)]" readonly="type == 'contact' and parent_id"/>-->
+                        </div>
+                        <div class="col-6">
+                        </div>
+                    </div>
+                    <!-- Hidden fields -->
+
+                    <field name="street" invisible="1"/>
+                    <field name="street2" invisible="1"/>
+                    <field name="city" invisible="1"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsm_pm_freq_monthly" model="fsm.pm.frequency">
+            <field name="name">Monthly (1 month)</field>
+            <field name="months">1</field>
+        </record>
+        <record id="fsm_pm_freq_quarterly" model="fsm.pm.frequency">
+            <field name="name">Every 3 Months</field>
+            <field name="months">3</field>
+        </record>
+        <record id="fsm_pm_freq_semi_annual" model="fsm.pm.frequency">
+            <field name="name">Every 6 Months</field>
+            <field name="months">6</field>
+        </record>
+        <record id="fsm_pm_freq_annual" model="fsm.pm.frequency">
+            <field name="name">Yearly</field>
+            <field name="months">12</field>
+        </record>
+    </data>
+</odoo>

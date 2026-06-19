@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_fsm_phe_unit_form" model="ir.ui.view">
+        <field name="name">fsm.phe.unit.form</field>
+        <field name="model">fsm.phe.unit</field>
+        <field name="arch" type="xml">
+            <form string="PHE Unit Check Sheet">
+                <header>
+                    <button name="action_disassemble" string="Disassemble" type="object"
+                            class="btn-primary" invisible="state != 'draft'"/>
+                    <button name="action_clean" string="Cleaning Done" type="object"
+                            class="btn-primary" invisible="state != 'disassembled'"/>
+                    <button name="action_leak_test" string="Leak Test Done" type="object"
+                            class="btn-primary" invisible="state != 'cleaned'"/>
+                    <button name="action_assemble" string="Reassemble" type="object"
+                            class="btn-primary" invisible="state != 'leak_tested'"/>
+                    <button name="action_done" string="Complete" type="object"
+                            class="btn-success" invisible="state != 'assembled'"/>
+                    <field name="state" widget="statusbar"
+                           statusbar_visible="draft,disassembled,cleaned,leak_tested,assembled,done"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="order_id" readonly="1"/>
+                            <field name="unit_number"/>
+                            <field name="technician_id"/>
+                        </group>
+                        <group>
+                            <field name="wash_location"/>
+                            <field name="gasket_condition"/>
+                            <field name="date_completed" readonly="1"/>
+                        </group>
+                    </group>
+                    <group string="Leak Test / Plate">
+                        <field name="plate_leak"/>
+                        <field name="plate_notes" invisible="not plate_leak"/>
+                        <field name="plate_action" invisible="not plate_leak"/>
+                        <field name="customer_notified" invisible="not plate_leak"/>
+                        <field name="leak_test_ok"/>
+                        <field name="pressure_test_ok"/>
+                    </group>
+                    <group string="Notes">
+                        <field name="notes" nolabel="1"/>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_fsm_phe_unit_list" model="ir.ui.view">
+        <field name="name">fsm.phe.unit.list</field>
+        <field name="model">fsm.phe.unit</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="unit_number"/>
+                <field name="order_id"/>
+                <field name="wash_location"/>
+                <field name="gasket_condition"/>
+                <field name="plate_leak" optional="show"/>
+                <field name="leak_test_ok" optional="show"/>
+                <field name="pressure_test_ok" optional="show"/>
+                <field name="state" widget="badge"
+                       decoration-success="state == 'done'"
+                       decoration-warning="state in ('cleaned','leak_tested','assembled')"
+                       decoration-muted="state == 'draft'"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

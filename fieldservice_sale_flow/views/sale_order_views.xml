@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Inherit sale.order form: smart button + create FSM order button -->
+    <record id="sale_order_form_fsm_flow" model="ir.ui.view">
+        <field name="name">sale.order.form.fsm.flow</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Smart button: FSM Orders count -->
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button type="object" name="action_view_fsm_orders"
+                        class="oe_stat_button" icon="fa-wrench"
+                        invisible="fsm_order_count == 0">
+                    <field name="fsm_order_count" widget="statinfo" string="Repair Jobs"/>
+                </button>
+            </xpath>
+
+            <!-- Button: Create Repair Job (visible when confirmed or draft) -->
+            <xpath expr="//button[@name='action_confirm']" position="after">
+                <button name="action_create_fsm_order"
+                        string="Create Repair Job"
+                        type="object"
+                        class="btn-secondary"
+                        invisible="state == 'cancel'"/>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

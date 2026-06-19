@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+         <!-- Window Action -->
+        <record id="action_subdistrict" model="ir.actions.act_window">
+            <field name="name">Sub District</field>
+            <field name="res_model">res.subdistrict</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- District Menu in Localization-->
+        <menuitem id="menu_subdistrict"
+            name="Sub District"
+            parent="contacts.menu_localisation"
+            action="action_subdistrict"/>
+
+        <!-- Tree View -->
+        <record id="view_subdistrict_tree" model="ir.ui.view">
+            <field name="name">subdistrict.tree</field>
+            <field name="model">res.subdistrict</field>
+            <field name="arch" type="xml">
+                <tree string="Subdistricts" editable="top">
+                    <field name="name"/>
+                    <field name="name_en"/>
+                    <field name="code"/>
+                    <field name="district_id"/>
+                    <field name="zip_code"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

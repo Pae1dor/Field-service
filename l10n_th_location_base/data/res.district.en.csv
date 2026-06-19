@@ -1,0 +1,926 @@
+id,name,code,state_id:id
+district_bkk_001,Samphanthawong,BKK-1001,base.state_th_001
+district_bkk_002,Pom Prap Sattru Phai,BKK-1002,base.state_th_001
+district_bkk_003,Khlong Toei,BKK-1003,base.state_th_001
+district_bkk_004,Watthana,BKK-1004,base.state_th_001
+district_bkk_005,Pathum Wan,BKK-1005,base.state_th_001
+district_bkk_006,Yan Nawa,BKK-1006,base.state_th_001
+district_bkk_007,Bang Kho Laem,BKK-1007,base.state_th_001
+district_bkk_008,Sathon,BKK-1008,base.state_th_001
+district_sp_001,Phra Pradaeng,SP-1101,base.state_th_057
+district_bkk_009,Rat Burana,BKK-1009,base.state_th_001
+district_bkk_010,Thung Khru,BKK-1010,base.state_th_001
+district_bkk_011,Bang Khun Thian,BKK-1011,base.state_th_001
+district_bkk_012,Bang Bon,BKK-1012,base.state_th_001
+district_bkk_013,Chom Thong,BKK-1013,base.state_th_001
+district_bkk_014,Phasi Charoen,BKK-1014,base.state_th_001
+district_bkk_015,Bang Khae,BKK-1015,base.state_th_001
+district_bkk_016,Nong Khaem,BKK-1016,base.state_th_001
+district_bkk_017,Thawi Watthana,BKK-1017,base.state_th_001
+district_bkk_018,Taling Chan,BKK-1018,base.state_th_001
+district_bkk_019,Phra Nakhon,BKK-1019,base.state_th_001
+district_bkk_020,Don Mueang,BKK-1020,base.state_th_001
+district_bkk_021,Lak Si,BKK-1021,base.state_th_001
+district_bkk_022,Sai Mai,BKK-1022,base.state_th_001
+district_bkk_023,Bang Khen,BKK-1023,base.state_th_001
+district_bkk_024,Khan Na Yao,BKK-1024,base.state_th_001
+district_bkk_025,Bueng Kum,BKK-1025,base.state_th_001
+district_bkk_026,Lat Phrao,BKK-1026,base.state_th_001
+district_bkk_027,Saphan Sung,BKK-1027,base.state_th_001
+district_bkk_028,Bang Kapi,BKK-1028,base.state_th_001
+district_bkk_029,Suan Luang,BKK-1029,base.state_th_001
+district_bkk_030,Prawet,BKK-1030,base.state_th_001
+district_bkk_031,Phra Khanong,BKK-1031,base.state_th_001
+district_bkk_032,Bang Na,BKK-1032,base.state_th_001
+district_sp_002,Mueang Samut Prakan,SP-1102,base.state_th_057
+district_sp_003,Phra Samut Chedi,SP-1103,base.state_th_057
+district_bkk_033,Dusit,BKK-1033,base.state_th_001
+district_bkk_034,Huai Khwang,BKK-1034,base.state_th_001
+district_bkk_035,Wang Thonglang,BKK-1035,base.state_th_001
+district_bkk_036,Din Daeng,BKK-1036,base.state_th_001
+district_bkk_037,Ratchathewi,BKK-1037,base.state_th_001
+district_bkk_038,Phaya Thai,BKK-1038,base.state_th_001
+district_bkk_039,Bang Rak,BKK-1039,base.state_th_001
+district_bkk_040,Khlong Sam Wa,BKK-1040,base.state_th_001
+district_bkk_041,Min Buri,BKK-1041,base.state_th_001
+district_bkk_042,Lat Krabang,BKK-1042,base.state_th_001
+district_bkk_043,Nong Chok,BKK-1043,base.state_th_001
+district_sp_004,Bang Phli,SP-1104,base.state_th_057
+district_sp_005,Bang Bo,SP-1105,base.state_th_057
+district_sp_006,Bang Sao Thong,SP-1106,base.state_th_057
+district_bkk_044,Bangkok Yai,BKK-1044,base.state_th_001
+district_bkk_045,Thon Buri,BKK-1045,base.state_th_001
+district_bkk_046,Khlong San,BKK-1046,base.state_th_001
+district_bkk_047,Bang Phlat,BKK-1047,base.state_th_001
+district_bkk_048,Bangkok Noi,BKK-1048,base.state_th_001
+district_bkk_049,Bang Sue,BKK-1049,base.state_th_001
+district_bkk_050,Chatuchak,BKK-1050,base.state_th_001
+district_nb_001,Mueang Nonthaburi,NB-1201,base.state_th_036
+district_nb_002,Bang Bua Thong,NB-1202,base.state_th_036
+district_nb_003,Pak Kret,NB-1203,base.state_th_036
+district_nb_004,Bang Kruai,NB-1204,base.state_th_036
+district_nb_005,Bang Yai,NB-1205,base.state_th_036
+district_nb_006,Sai Noi,NB-1206,base.state_th_036
+district_pt_001,Mueang Pathum Thani,PT-1301,base.state_th_037
+district_pt_002,Thanyaburi,PT-1302,base.state_th_037
+district_pt_003,Khlong Luang,PT-1303,base.state_th_037
+district_pt_004,Lam Luk Ka,PT-1304,base.state_th_037
+district_pt_005,Lat Lum Kaeo,PT-1305,base.state_th_037
+district_pt_006,Sam Khok,PT-1306,base.state_th_037
+district_pt_007,Nong Suea,PT-1307,base.state_th_037
+district_ay_001,Phra Nakhon Si Ayutthaya,AY-1401,base.state_th_046
+district_ay_002,Uthai,AY-1402,base.state_th_046
+district_ay_003,Sena,AY-1403,base.state_th_046
+district_ay_004,Phak Hai,AY-1404,base.state_th_046
+district_ay_005,Tha Ruea,AY-1405,base.state_th_046
+district_ay_006,Phachi,AY-1406,base.state_th_046
+district_ay_007,Maharat,AY-1407,base.state_th_046
+district_ay_008,Bang Pa-in,AY-1408,base.state_th_046
+district_ay_009,Wang Noi,AY-1409,base.state_th_046
+district_ay_010,Bang Ban,AY-1410,base.state_th_046
+district_ay_011,Bang Pahan,AY-1411,base.state_th_046
+district_ay_012,Lat Bua Luang,AY-1412,base.state_th_046
+district_ay_013,Mueang Lopburi,AY-1413,base.state_th_022
+district_ay_014,Ban Phraek,AY-1414,base.state_th_046
+district_ay_015,Bang Bal,AY-1415,base.state_th_046
+district_ay_016,Nakhon Luang,AY-1416,base.state_th_046
+district_ay_017,Bang Sai,AY-1417,base.state_th_046
+district_at_001,Mueang Ang Thong,AT-1501,base.state_th_003
+district_at_002,Wiset Chai Chan,AT-1502,base.state_th_003
+district_at_003,Pho Thong,AT-1503,base.state_th_003
+district_at_004,Pa Mok,AT-1504,base.state_th_003
+district_at_005,Chaiyo,AT-1505,base.state_th_003
+district_at_006,Sawaeng Ha,AT-1506,base.state_th_003
+district_at_007,Sam Ko,AT-1507,base.state_th_003
+district_lb_001,Ban Mi,LB-1601,base.state_th_022
+district_lb_002,Khok Samrong,LB-1602,base.state_th_022
+district_lb_003,Chai Badan,LB-1603,base.state_th_022
+district_lb_004,Lam Sonthi,LB-1604,base.state_th_022
+district_lb_005,Phatthana Nikhom,LB-1605,base.state_th_022
+district_lb_006,Tha Wung,LB-1606,base.state_th_022
+district_lb_007,Nong Muang,LB-1607,base.state_th_022
+district_lb_008,Tha Luang,LB-1608,base.state_th_022
+district_lb_009,Sa Bot,LB-1609,base.state_th_022
+district_lb_010,Khok Charoen,LB-1610,base.state_th_022
+district_sb_001,Mueang Sing Buri,SB-1701,base.state_th_062
+district_sb_002,In Buri,SB-1702,base.state_th_062
+district_sb_003,Phrom Buri,SB-1703,base.state_th_062
+district_sb_004,Bang Rachan,SB-1704,base.state_th_062
+district_sb_005,Tha Chang,SB-1705,base.state_th_062
+district_sb_006,Khai Bang Rachan,SB-1706,base.state_th_062
+district_cn_001,Mueang Chai Nat,CN-1801,base.state_th_007
+district_cn_002,Manorom,CN-1802,base.state_th_007
+district_cn_003,Wat Sing,CN-1803,base.state_th_007
+district_cn_004,Nong Mamong,CN-1804,base.state_th_007
+district_cn_005,Noen Kham,CN-1805,base.state_th_007
+district_cn_006,Hankha,CN-1806,base.state_th_007
+district_cn_007,Sankhaburi,CN-1807,base.state_th_007
+district_cn_008,Sapphaya,CN-1808,base.state_th_007
+district_sb_007,Mueang Saraburi,SB-1901,base.state_th_060
+district_sb_008,Chaloem Phra Kiat,SB-1902,base.state_th_060
+district_sb_009,Kaeng Khoi,SB-1903,base.state_th_060
+district_sb_010,Phra Phutthabat,SB-1904,base.state_th_060
+district_sb_011,Ban Mo,SB-1905,base.state_th_060
+district_sb_012,Nong Khae,SB-1906,base.state_th_060
+district_sb_013,Wihan Daeng,SB-1907,base.state_th_060
+district_sb_014,Sao Hai,SB-1908,base.state_th_060
+district_sb_015,Nong Saeng,SB-1909,base.state_th_060
+district_sb_016,Muak Lek,SB-1910,base.state_th_060
+district_sb_017,Nong Don,SB-1911,base.state_th_060
+district_sb_018,Don Phud,SB-1912,base.state_th_060
+district_sb_019,Wang Muang,SB-1913,base.state_th_060
+district_cb_001,Mueang Chonburi,CB-2001,base.state_th_012
+district_cb_002,Ban Bueng,CB-2002,base.state_th_012
+district_cb_003,Si Racha,CB-2003,base.state_th_012
+district_cb_004,Ko Sichang,CB-2004,base.state_th_012
+district_cb_005,Phanat Nikhom,CB-2005,base.state_th_012
+district_cb_006,Bang Lamung,CB-2006,base.state_th_012
+district_cb_007,Ban Bueng,CB-2007,base.state_th_012
+district_cb_008,Sattahip,CB-2008,base.state_th_012
+district_cb_009,Nong Yai,CB-2009,base.state_th_012
+district_cb_010,Ko Chan,CB-2010,base.state_th_012
+district_cb_011,Bo Thong,CB-2011,base.state_th_012
+district_ry_001,Mueang Rayong,RY-2101,base.state_th_053
+district_ry_002,Klaeng,RY-2102,base.state_th_053
+district_ry_003,Khao Chamao,RY-2103,base.state_th_053
+district_ry_004,Ban Khai,RY-2104,base.state_th_053
+district_ry_005,Ban Chang,RY-2105,base.state_th_053
+district_ry_006,Pluak Daeng,RY-2106,base.state_th_053
+district_ry_007,Nikhom Phatthana,RY-2107,base.state_th_053
+district_ry_008,Wang Chan,RY-2108,base.state_th_053
+district_ct_001,Mueang Chanthaburi,CT-2201,base.state_th_009
+district_ct_002,Khlung,CT-2202,base.state_th_009
+district_ct_003,Tha Mai,CT-2203,base.state_th_009
+district_ct_004,Laem Sing,CT-2204,base.state_th_009
+district_ct_005,Pong Nam Ron,CT-2205,base.state_th_009
+district_ct_006,Makham,CT-2206,base.state_th_009
+district_ct_007,Kaeng Hang Maeo,CT-2207,base.state_th_009
+district_ct_008,Na Yai Am,CT-2208,base.state_th_009
+district_ct_009,Soi Dao,CT-2209,base.state_th_009
+district_ct_010,Khao Khitchakut,CT-2210,base.state_th_009
+district_tr_001,Mueang Trat,TR-2301,base.state_th_071
+district_tr_002,Ko Kut,TR-2302,base.state_th_071
+district_tr_003,Khlong Yai,TR-2303,base.state_th_071
+district_tr_004,Laem Ngop,TR-2304,base.state_th_071
+district_tr_005,Khao Saming,TR-2305,base.state_th_071
+district_tr_006,Bo Rai,TR-2306,base.state_th_071
+district_tr_007,Ko Chang,TR-2307,base.state_th_071
+district_cc_001,Mueang Chachoengsao,CC-2401,base.state_th_006
+district_cc_002,Bang Nam Priao,CC-2402,base.state_th_006
+district_cc_003,Khlong Khuean,CC-2403,base.state_th_006
+district_cc_004,Bang Khla,CC-2404,base.state_th_006
+district_cc_005,Ratchasan,CC-2405,base.state_th_006
+district_cc_006,Phanom Sarakham,CC-2406,base.state_th_006
+district_cc_007,Bang Pakong,CC-2407,base.state_th_006
+district_cc_008,Ban Pho,CC-2408,base.state_th_006
+district_cc_009,Sanam Chai Khet,CC-2409,base.state_th_006
+district_cc_010,Tha Takiab,CC-2410,base.state_th_006
+district_cc_011,Plaeng Yao,CC-2411,base.state_th_006
+district_pb_001,Mueang Prachinburi,PB-2501,base.state_th_049
+district_pb_002,Kabin Buri,PB-2502,base.state_th_049
+district_pb_003,Prachan Takham,PB-2503,base.state_th_049
+district_pb_004,Si Maha Phot,PB-2504,base.state_th_049
+district_pb_005,Ban Sang,PB-2505,base.state_th_049
+district_pb_006,Si Mahosot,PB-2506,base.state_th_049
+district_pb_007,Na Di,PB-2507,base.state_th_049
+district_ny_001,Mueang Nakhon Nayok,NY-2601,base.state_th_026
+district_ny_002,Ban Na,NY-2602,base.state_th_026
+district_ny_003,Ongkharak,NY-2603,base.state_th_026
+district_ny_004,Pak Phli,NY-2604,base.state_th_026
+district_sk_001,Mueang Sa Kaeo,SK-2701,base.state_th_055
+district_sk_002,Khao Chakan,SK-2702,base.state_th_055
+district_sk_003,Khok Sung,SK-2703,base.state_th_055
+district_sk_004,Aranyaprathet,SK-2704,base.state_th_055
+district_sk_005,Watthana Nakhon,SK-2705,base.state_th_055
+district_sk_006,Ta Phraya,SK-2706,base.state_th_055
+district_sk_007,Wang Nam Yen,SK-2707,base.state_th_055
+district_sk_008,Wang Sombun,SK-2708,base.state_th_055
+district_sk_009,Khlong Hat,SK-2709,base.state_th_055
+district_nm_001,Mueang Nakhon Ratchasima,NM-3001,base.state_th_029
+district_nm_002,Phimai,NM-3002,base.state_th_029
+district_nm_003,Bua Yai,NM-3003,base.state_th_029
+district_nm_004,Bua Lai,NM-3004,base.state_th_029
+district_nm_005,Pak Chong,NM-3005,base.state_th_029
+district_nm_006,Sikhio,NM-3006,base.state_th_029
+district_nm_007,Wang Nam Khiao,NM-3007,base.state_th_029
+district_nm_008,Pak Thong Chai,NM-3008,base.state_th_029
+district_nm_009,Non Sung,NM-3009,base.state_th_029
+district_nm_010,Sung Noen,NM-3010,base.state_th_029
+district_nm_011,Prathai,NM-3011,base.state_th_029
+district_nm_012,Chok Chai,NM-3012,base.state_th_029
+district_nm_013,Thepharak,NM-3013,base.state_th_029
+district_nm_014,Dan Khun Thot,NM-3014,base.state_th_029
+district_nm_015,Non Thai,NM-3015,base.state_th_029
+district_nm_016,Phra Thong Kham,NM-3016,base.state_th_029
+district_nm_017,Chakkarat,NM-3017,base.state_th_029
+district_nm_018,Huai Thalaeng,NM-3018,base.state_th_029
+district_nm_019,Kham Buri,NM-3019,base.state_th_029
+district_nm_020,Khong,NM-3020,base.state_th_029
+district_nm_021,Mueang Yang,NM-3021,base.state_th_029
+district_nm_022,Chum Phuang,NM-3022,base.state_th_029
+district_nm_023,Lam Thamenchai,NM-3023,base.state_th_029
+district_nm_024,Kham Thale So,NM-3024,base.state_th_029
+district_nm_025,Kham Sakaesaeng,NM-3025,base.state_th_029
+district_nm_026,Soeng Sang,NM-3026,base.state_th_029
+district_nm_027,Ban Lueam,NM-3027,base.state_th_029
+district_nm_028,Non Daeng,NM-3028,base.state_th_029
+district_nm_029,Nong Bunmak,NM-3029,base.state_th_029
+district_nm_030,Sida,NM-3030,base.state_th_029
+district_nm_031,Kaeng Sanam Nang,NM-3031,base.state_th_029
+district_br_001,Huai Rat,BR-3101,base.state_th_005
+district_br_002,Ban Dan,BR-3102,base.state_th_005
+district_br_003,Mueang Buriram,BR-3103,base.state_th_005
+district_br_004,Non Suwan,BR-3104,base.state_th_005
+district_br_005,Nang Rong,BR-3105,base.state_th_005
+district_br_006,Chamni,BR-3106,base.state_th_005
+district_br_007,Phutthaisong,BR-3107,base.state_th_005
+district_br_008,Ban Mai Chaiyaphot,BR-3108,base.state_th_005
+district_br_009,Lam Plai Mat,BR-3109,base.state_th_005
+district_br_010,Prakhon Chai,BR-3110,base.state_th_005
+district_br_011,Khaen Dong,BR-3111,base.state_th_005
+district_br_012,Satuek,BR-3112,base.state_th_005
+district_br_013,Krasang,BR-3113,base.state_th_005
+district_br_014,Lahan Sai,BR-3114,base.state_th_005
+district_br_015,Ban Kruat,BR-3115,base.state_th_005
+district_br_016,Khu Mueang,BR-3116,base.state_th_005
+district_br_017,Nong Ki,BR-3117,base.state_th_005
+district_br_018,Pa Kham,BR-3118,base.state_th_005
+district_br_019,Na Pho,BR-3119,base.state_th_005
+district_br_020,Nong Hong,BR-3120,base.state_th_005
+district_br_021,Phlab Phla Chai,BR-3121,base.state_th_005
+district_br_022,Non Din Daeng,BR-3122,base.state_th_005
+district_sr_001,Khwao Sinrin,SR-3201,base.state_th_068
+district_sr_002,Mueang Surin,SR-3202,base.state_th_068
+district_sr_003,Sikhoraphum,SR-3203,base.state_th_068
+district_sr_004,Tha Tum,SR-3204,base.state_th_068
+district_sr_005,Rattanaburi,SR-3205,base.state_th_068
+district_sr_006,Non Narai,SR-3206,base.state_th_068
+district_sr_007,Phanom Dong Rak,SR-3207,base.state_th_068
+district_sr_008,Prasat,SR-3208,base.state_th_068
+district_sr_009,Sangkha,SR-3209,base.state_th_068
+district_sr_010,Si Narong,SR-3210,base.state_th_068
+district_sr_011,Sanom,SR-3211,base.state_th_068
+district_sr_012,Samrong Thap,SR-3212,base.state_th_068
+district_sr_013,Chom Phra,SR-3213,base.state_th_068
+district_sr_014,Chumphon Buri,SR-3214,base.state_th_068
+district_sr_015,Kap Choeng,SR-3215,base.state_th_068
+district_sr_016,Lamduan,SR-3216,base.state_th_068
+district_sr_017,Buachet,SR-3217,base.state_th_068
+district_ss_001,Mueang Si Sa Ket,SS-3301,base.state_th_063
+district_ss_002,Kantharalak,SS-3302,base.state_th_063
+district_ss_003,Benchalak,SS-3303,base.state_th_063
+district_ss_004,Uthumphon Phisai,SS-3304,base.state_th_063
+district_ss_005,Mueang Chan,SS-3305,base.state_th_063
+district_ss_006,Pho Sri Suwan,SS-3306,base.state_th_063
+district_ss_007,Kantharom,SS-3307,base.state_th_063
+district_ss_008,Nam Kliang,SS-3308,base.state_th_063
+district_ss_009,Khukhan,SS-3309,base.state_th_063
+district_ss_010,Phu Sing,SS-3310,base.state_th_063
+district_ss_011,Khun Han,SS-3311,base.state_th_063
+district_ss_012,Rasi Salai,SS-3312,base.state_th_063
+district_ss_013,Silalat,SS-3313,base.state_th_063
+district_ss_014,Prang Ku,SS-3314,base.state_th_063
+district_ss_015,Prai Bueng,SS-3315,base.state_th_063
+district_ss_016,Yang Chum Noi,SS-3316,base.state_th_063
+district_ss_017,Huai Thap Than,SS-3317,base.state_th_063
+district_ss_018,Bueng Bun,SS-3318,base.state_th_063
+district_ss_019,Phyu,SS-3319,base.state_th_063
+district_ss_020,Si Rattana,SS-3320,base.state_th_063
+district_ss_021,Non Khun,SS-3321,base.state_th_063
+district_ss_022,Wang Hin,SS-3322,base.state_th_063
+district_ub_001,Mueang Ubon Ratchathani,UB-3401,base.state_th_072
+district_ub_002,Lao Suea Kok,UB-3402,base.state_th_072
+district_ub_003,Don Mot Daeng,UB-3403,base.state_th_072
+district_ub_004,Phibun Mangsahan,UB-3404,base.state_th_072
+district_ub_005,Trakan Phuet Phon,UB-3405,base.state_th_072
+district_ub_006,Muang Sam Sip,UB-3406,base.state_th_072
+district_ub_007,Khuang Nai,UB-3407,base.state_th_072
+district_ub_008,Det Udom,UB-3408,base.state_th_072
+district_ub_009,Na Yia,UB-3409,base.state_th_072
+district_ub_010,Thung Si Udom,UB-3410,base.state_th_072
+district_ub_011,Na Tan,UB-3411,base.state_th_072
+district_ub_012,Khemarat,UB-3412,base.state_th_072
+district_ub_013,Warin Chamrap,UB-3413,base.state_th_072
+district_ub_014,Sawang Wirawong,UB-3414,base.state
+district_ub_015,Khong Chiam,UB-3415,base.state_th_072
+district_ub_016,Bunthrik,UB-3416,base.state_th_072
+district_ub_017,Si Mueang Mai,UB-3417,base.state_th_072
+district_ub_018,Nam Yuen,UB-3418,base.state_th_072
+district_ub_019,Nam Khun,UB-3419,base.state_th_072
+district_ub_020,Kut Khaopun,UB-3420,base.state_th_072
+district_ub_021,Na Chaluai,UB-3421,base.state_th_072
+district_ub_022,Tan Sum,UB-3422,base.state_th_072
+district_ub_023,Pho Sai,UB-3423,base.state_th_072
+district_ub_024,Sirindhorn,UB-3424,base.state_th_072
+district_ub_025,Sam Rong,UB-3425,base.state_th_072
+district_ys_001,Mueang Yasothon,YS-3501,base.state_th_077
+district_ys_002,Kham Khuean Kaeo,YS-3502,base.state_th_077
+district_ys_003,Thai Charoen,YS-3503,base.state_th_077
+district_ys_004,Loeng Nok Tha,YS-3504,base.state_th_077
+district_ys_005,Maha Chana Chai,YS-3505,base.state_th_077
+district_ys_006,Kut Chum,YS-3506,base.state_th_077
+district_ys_007,Pa Tio,YS-3507,base.state_th_077
+district_ys_008,Kho Wang,YS-3508,base.state_th_077
+district_ys_009,Sai Mun,YS-3509,base.state_th_077
+district_cp_001,Mueang Chaiyaphum,CP-3601,base.state_th_008
+district_cp_002,Phu Khiao,CP-3602,base.state_th_008
+district_cp_003,Kaset Sombun,CP-3603,base.state_th_008
+district_cp_004,Chatturat,CP-3604,base.state_th_008
+district_cp_005,Sap Yai,CP-3605,base.state_th_008
+district_cp_006,Noen Sa-nga,CP-3606,base.state_th_008
+district_cp_007,Khon Sawan,CP-3607,base.state_th_008
+district_cp_008,Kaeng Khro,CP-3608,base.state_th_008
+district_cp_009,Bamnet Narong,CP-3609,base.state_th_008
+district_cp_010,Ban Khwao,CP-3610,base.state_th_008
+district_cp_011,Khon San,CP-3611,base.state_th_008
+district_cp_012,Ban Thaen,CP-3612,base.state_th_008
+district_cp_013,Nong Bua Daeng,CP-3613,base.state_th_008
+district_cp_014,Thep Sathit,CP-3614,base.state_th_008
+district_cp_015,Nong Bua Rawe,CP-3615,base.state_th_008
+district_cp_016,Phakdi Chumphon,CP-3616,base.state_th_008
+district_ac_001,Mueang Amnat Charoen,AC-3701,base.state_th_002
+district_ac_002,Pathum Ratchawongsa,AC-3702,base.state_th_002
+district_ac_003,Lue Amnat,AC-3703,base.state_th_002
+district_ac_004,Phana,AC-3704,base.state_th_002
+district_ac_005,Chanuman,AC-3705,base.state_th_002
+district_ac_006,Hua Taphan,AC-3706,base.state_th_002
+district_ac_007,Senangkhanikhom,AC-3707,base.state_th_002
+district_bk_001,Mueang Bueng Kan,BK-3801,base.state_th_004
+district_bk_002,Bung Khla,BK-3802,base.state_th_004
+district_bk_003,Seka,BK-3803,base.state_th_004
+district_bk_004,So Phisai,BK-3804,base.state_th_004
+district_bk_005,Phon Charoen,BK-3805,base.state_th_004
+district_bk_006,Pak Khat,BK-3806,base.state_th_004
+district_bk_007,Si Wilai,BK-3807,base.state_th_004
+district_bk_008,Bueng Khong Long,BK-3808,base.state_th_004
+district_nb_007,Mueang Nong Bua Lamphu,NB-3901,base.state_th_034
+district_nb_008,Non Sang,NB-3902,base.state_th_034
+district_nb_009,Na Wang,NB-3903,base.state_th_034
+district_nb_010,Na Klang,NB-3904,base.state_th_034
+district_nb_011,Si Bun Rueang,NB-3905,base.state_th_034
+district_nb_012,Suwannakhuha,NB-3906,base.state_th_034
+district_kk_001,Mueang Khon Kaen,KK-4001,base.state_th_017
+district_kk_002,Ban Phai,KK-4002,base.state_th_017
+district_kk_003,Non Sila,KK-4003,base.state_th_017
+district_kk_004,Ban Haet,KK-4004,base.state_th_017
+district_kk_005,Phon,KK-4005,base.state_th_017
+district_kk_006,Chum Phae,KK-4006,base.state_th_017
+district_kk_007,Nam Phong,KK-4007,base.state_th_017
+district_kk_008,Wiang Kao,KK-4008,base.state_th_017
+district_kk_009,Nong Na Kham,KK-4009,base.state_th_017
+district_kk_010,Phu Wiang,KK-4010,base.state_th_017
+district_kk_011,Mancha Khiri,KK-4011,base.state_th_017
+district_kk_012,Khok Pho Chai,KK-4012,base.state_th_017
+district_kk_013,Sam Sung,KK-4013,base.state_th_017
+district_kk_014,Kranuan,KK-4014,base.state_th_017
+district_kk_015,Chonnabot,KK-4015,base.state_th_017
+district_kk_016,Nong Song Hong,KK-4016,base.state_th_017
+district_kk_017,Nong Ruea,KK-4017,base.state_th_017
+district_kk_018,Si Chomphu,KK-4018,base.state_th_017
+district_kk_019,Waeng Noi,KK-4019,base.state_th_017
+district_kk_020,Ubolratana,KK-4020,base.state_th_017
+district_kk_021,Ban Fang,KK-4021,base.state_th_017
+district_kk_022,Khao Suan Kwang,KK-4022,base.state_th_017
+district_kk_023,Phra Yuen,KK-4023,base.state_th_017
+district_kk_024,Waeng Yai,KK-4024,base.state_th_017
+district_kk_025,Pueai Noi,KK-4025,base.state_th_017
+district_kk_026,Phu Pha Man,KK-4026,base.state_th_017
+district_ud_001,Mueang Udon Thani,UD-4101,base.state_th_073
+district_ud_002,Kumphawapi,UD-4102,base.state_th_073
+district_ud_003,Prachak Sinlapakhom,UD-4103,base.state_th_073
+district_ud_004,Nong Han,UD-4104,base.state_th_073
+district_ud_005,Phibun Rak,UD-4105,base.state_th_073
+district_ud_006,Ku Kaeo,UD-4106,base.state_th_073
+district_ud_007,Pen,UD-4107,base.state_th_073
+district_ud_008,Ban Phue,UD-4108,base.state_th_073
+district_ud_009,Ban Dung,UD-4109,base.state_th_073
+district_ud_010,Nam Som,UD-4110,base.state_th_073
+district_ud_011,Nong Wua So,UD-4111,base.state_th_073
+district_ud_012,Si That,UD-4112,base.state_th_073
+district_ud_013,Non Sa-at,UD-4113,base.state_th_073
+district_ud_014,Kut Chap,UD-4114,base.state_th_073
+district_ud_015,Sang Khom,UD-4115,base.state_th_073
+district_ud_016,Wang Sam Mo,UD-4116,base.state_th_073
+district_ud_017,Chai Wan,UD-4117,base.state_th_073
+district_ud_018,Thung Fon,UD-4118,base.state_th_073
+district_ud_019,Nong Saeng,UD-4119,base.state_th_073
+district_ud_020,Na Yung,UD-4120,base.state_th_073
+district_le_001,Mueang Loei,LE-4201,base.state_th_021
+district_le_002,Chiang Khan,LE-4202,base.state_th_021
+district_le_003,Dan Sai,LE-4203,base.state_th_021
+district_le_004,Wang Saphung,LE-4204,base.state_th_021
+district_le_005,Tha Li,LE-4205,base.state_th_021
+district_le_006,Pak Chom,LE-4206,base.state_th_021
+district_le_007,Phu Ruea,LE-4207,base.state_th_021
+district_le_008,Na Haeo,LE-4208,base.state_th_021
+district_le_009,Phu Kradueng,LE-4209,base.state_th_021
+district_le_010,Nong Hin,LE-4210,base.state_th_021
+district_le_011,Na Duang,LE-4211,base.state_th_021
+district_le_012,Erawan,LE-4212,base.state_th_021
+district_le_013,Phu Luang,LE-4213,base.state_th_021
+district_le_014,Pha Khao,LE-4214,base.state_th_021
+district_nk_001,Mueang Nong Khai,NK-4301,base.state_th_035
+district_nk_002,Sra Krai,NK-4302,base.state_th_035
+district_nk_003,Tha Bo,NK-4303,base.state_th_035
+district_nk_004,Rattanawapi,NK-4304,base.state_th_035
+district_nk_005,Phon Phisai,NK-4305,base.state_th_035
+district_nk_006,Pho Tak,NK-4306,base.state_th_035
+district_nk_007,Si Chiang Mai,NK-4307,base.state_th_035
+district_nk_008,Sangkhom,NK-4308,base.state_th_035
+district_nk_009,Fao Rai,NK-4309,base.state_th_035
+district_mk_001,Mueang Maha Sarakham,MK-4401,base.state_th_024
+district_mk_002,Phayakkhaphum Phisai,MK-4402,base.state_th_024
+district_mk_003,Wapi Pathum,MK-4403,base.state_th_024
+district_mk_004,Borabue,MK-4404,base.state_th_024
+district_mk_005,Kut Rang,MK-4405,base.state_th_024
+district_mk_006,Kosum Phisai,MK-4406,base.state_th_024
+district_mk_007,Kantharawichai,MK-4407,base.state_th_024
+district_mk_008,Chiang Yuen,MK-4408,base.state_th_024
+district_mk_009,Chuen Chom,MK-4409,base.state_th_024
+district_mk_010,Na Chueak,MK-4410,base.state_th_024
+district_mk_011,Na Dun,MK-4411,base.state_th_024
+district_mk_012,Kae Dam,MK-4412,base.state_th_024
+district_mk_013,Yang Sisurat,MK-4413,base.state_th_024
+district_re_001,Mueang Roi Et,RE-4501,base.state_th_054
+district_re_002,Changhan,RE-4502,base.state_th_054
+district_re_003,Chiang Khwan,RE-4503,base.state_th_054
+district_re_004,Si Somdet,RE-4504,base.state_th_054
+district_re_005,Phon Thong,RE-4505,base.state_th_054
+district_re_006,Selaphum,RE-4506,base.state_th_054
+district_re_007,Suwannaphum,RE-4507,base.state_th_054
+district_re_008,Nong Hi,RE-4508,base.state_th_054
+district_re_009,Phanom Phrai,RE-4509,base.state_th_054
+district_re_010,Kaset Wisai,RE-4510,base.state_th_054
+district_re_011,At Samat,RE-4511,base.state_th_054
+district_re_012,Thawat Buri,RE-4512,base.state_th_054
+district_re_013,Thung Khao Luang,RE-4513,base.state_th_054
+district_re_014,Chaturaphak Phiman,RE-4514,base.state_th_054
+district_re_015,Pathum Rat,RE-4515,base.state_th_054
+district_re_016,Nong Phok,RE-4516,base.state_th_054
+district_re_017,Mueang Suang,RE-4517,base.state_th_054
+district_re_018,Pho Chai,RE-4518,base.state_th_054
+district_re_019,Phon Sai,RE-4519,base.state_th_054
+district_re_020,Moei Wadi,RE-4520,base.state_th_054
+district_ks_001,Mueang Kalasin,RE-4521,base.state_th_014
+district_ks_002,Don Chan,RE-4522,base.state_th_014
+district_ks_003,Kuchinarai,KS-4601,base.state_th_014
+district_ks_004,Yang Talat,KS-4602,base.state_th_014
+district_ks_005,Kamalasai,KS-4603,base.state_th_014
+district_ks_006,Khong Chai,KS-4604,base.state_th_014
+district_ks_007,Sahatsakhan,KS-4605,base.state_th_014
+district_ks_008,Somdet,KS-4606,base.state_th_014
+district_ks_009,Na Khu,KS-4607,base.state_th_014
+district_ks_010,Khao Wong,KS-4608,base.state_th_014
+district_ks_011,Huai Mek,KS-4609,base.state_th_014
+district_ks_012,Sam Chai,KS-4610,base.state_th_014
+district_ks_013,Kham Muang,KS-4611,base.state_th_014
+district_ks_014,Tha Khantho,KS-4612,base.state_th_014
+district_ks_015,Rong Kham,KS-4613,base.state_th_014
+district_ks_016,Nong Kung Si,KS-4614,base.state_th_014
+district_ks_017,Na Mon,KS-4615,base.state_th_014
+district_ks_018,Huai Phueng,KS-4616,base.state_th_014
+district_sn_001,Mueang Sakon Nakhon,SN-4701,base.state_th_056
+district_sn_002,Sawang Daen Din,SN-4702,base.state_th_056
+district_sn_003,Waritchaphum,SN-4703,base.state_th_056
+district_sn_004,Phanna Nikhom,SN-4704,base.state_th_056
+district_sn_005,Ban Muang,SN-4705,base.state_th_056
+district_sn_006,Waritchaphum,SN-4706,base.state_th_056
+district_sn_007,Phang Khon,SN-4707,base.state_th_056
+district_sn_008,Akat Amnuai,SN-4708,base.state_th_056
+district_sn_009,Kut Bak,SN-4709,base.state_th_056
+district_sn_010,Phu Phan,SN-4710,base.state_th_056
+district_sn_011,Song Dao,SN-4711,base.state_th_056
+district_sn_012,Kusuman,SN-4712,base.state_th_056
+district_sn_013,Phon Na Kaeo,SN-4713,base.state_th_056
+district_sn_014,Kham Ta Kla,SN-4714,base.state_th_056
+district_sn_015,Tao Ngoi,SN-4715,base.state_th_056
+district_sn_016,Nikhom Nam Un,SN-4716,base.state_th_056
+district_sn_017,Khok Si Suphan,SN-4717,base.state_th_056
+district_sn_018,Charoen Sin,SN-4718,base.state_th_056
+district_np_001,Mueang Nakhon Phanom,NP-4801,base.state_th_028
+district_np_002,That Phanom,NP-4802,base.state_th_028
+district_np_003,Tha Uthen,NP-4803,base.state_th_028
+district_np_004,Wang Yang,NP-4804,base.state_th_028
+district_np_005,Na Kae,NP-4805,base.state_th_028
+district_np_006,Na Thom,NP-4806,base.state_th_028
+district_np_007,Ban Phaeng,NP-4807,base.state_th_028
+district_np_008,Si Songkhram,NP-4808,base.state_th_028
+district_np_009,Pla Pak,NP-4809,base.state_th_028
+district_np_010,Renu Nakhon,NP-4810,base.state_th_028
+district_np_011,Na Wa,NP-4811,base.state_th_028
+district_np_012,Phon Sawan,NP-4812,base.state_th_028
+district_md_001,Mueang Mukdahan,MD-4901,base.state_th_025
+district_md_002,Khamcha-i,MD-4902,base.state_th_025
+district_md_003,Don Tan,MD-4903,base.state_th_025
+district_md_004,Nikhom Kham Soi,MD-4904,base.state_th_025
+district_md_005,Dong Luang,MD-4905,base.state_th_025
+district_md_006,Wan Yai,MD-4906,base.state_th_025
+district_md_007,Nong Sung,MD-4907,base.state_th_025
+district_cm_001,Mueang Chiang Mai,CM-5001,base.state_th_010
+district_cm_002,Fang,CM-5002,base.state_th_010
+district_cm_003,San Pa Tong,CM-5003,base.state_th_010
+district_cm_004,San Kamphaeng,CM-5004,base.state_th_010
+district_cm_005,Mae On,CM-5005,base.state_th_010
+district_cm_006,Saraphi,CM-5006,base.state_th_010
+district_cm_007,Mae Taeng,CM-5007,base.state_th_010
+district_cm_008,Doi Lo,CM-5008,base.state_th_010
+district_cm_009,Chiang Dao,CM-5009,base.state_th_010
+district_cm_010,Mae Rim,CM-5010,base.state_th_010
+district_cm_011,Phrao,CM-5011,base.state_th_010
+district_cm_012,San Sai,CM-5012,base.state_th_010
+district_cm_013,Doi Saket,CM-5013,base.state_th_010
+district_cm_014,Hang Dong,CM-5014,base.state_th_010
+district_cm_015,Hot,CM-5015,base.state_th_010
+district_cm_016,Samoeng,CM-5016,base.state_th_010
+district_cm_017,Doi Tao,CM-5017,base.state_th_010
+district_cm_018,Mae Chaem,CM-5018,base.state_th_010
+district_cm_019,Mae Ai,CM-5019,base.state_th_010
+district_cm_020,Om Koi,CM-5020,base.state_th_010
+district_cm_021,Chai Prakan,CM-5021,base.state_th_010
+district_cm_022,Wiang Haeng,CM-5022,base.state_th_010
+district_cm_023,Mae Wang,CM-5023,base.state_th_010
+district_cm_024,Chom Thong,CM-5024,base.state_th_010
+district_ln_001,Mueang Lamphun,LN-5101,base.state_th_020
+district_ln_002,Li,LN-5102,base.state_th_020
+district_ln_003,Wiang Nong Long,LN-5103,base.state_th_020
+district_ln_004,Pa Sang,LN-5104,base.state_th_020
+district_ln_005,Ban Hong,LN-5105,base.state_th_020
+district_ln_006,Mae Tha,LN-5106,base.state_th_020
+district_ln_007,Thung Hua Chang,LN-5107,base.state_th_020
+district_ln_008,Ban Thi,LN-5108,base.state_th_020
+district_lp_001,Mueang Lampang,LP-5201,base.state_th_019
+district_lp_002,Mae Mo,LP-5202,base.state_th_019
+district_lp_003,Ngao,LP-5203,base.state_th_019
+district_lp_004,Chae Hom,LP-5204,base.state_th_019
+district_lp_005,Ko Kha,LP-5205,base.state_th_019
+district_lp_006,Wang Nuea,LP-5206,base.state_th_019
+district_lp_007,Mae Tha,LP-5207,base.state_th_019
+district_lp_008,Thoen,LP-5208,base.state_th_019
+district_lp_009,Sop Prap,LP-5209,base.state_th_019
+district_lp_010,Mae Phrik,LP-5210,base.state_th_019
+district_lp_011,Hang Chat,LP-5211,base.state_th_019
+district_lp_012,Soem Ngam,LP-5212,base.state_th_019
+district_lp_013,Mueang Pan,LP-5213,base.state_th_019
+district_ut_001,Mueang Uttaradit,UT-5301,base.state_th_075
+district_ut_002,Nam Pat,UT-5302,base.state_th_075
+district_ut_003,Phichai,UT-5303,base.state_th_075
+district_ut_004,Lap Lae,UT-5304,base.state_th_075
+district_ut_005,Tron,UT-5305,base.state_th_075
+district_ut_006,Tha Pla,UT-5306,base.state_th_075
+district_ut_007,Fak Tha,UT-5307,base.state_th_075
+district_ut_008,Ban Khok,UT-5308,base.state_th_075
+district_ut_009,Thong Saen Khan,UT-5309,base.state_th_075
+district_pr_001,Mueang Phrae,PR-5401,base.state_th_047
+district_pr_002,Sung Men,PR-5402,base.state_th_047
+district_pr_003,Den Chai,PR-5403,base.state_th_047
+district_pr_004,Song,PR-5404,base.state_th_047
+district_pr_005,Rong Kwang,PR-5405,base.state_th_047
+district_pr_006,Long,PR-5406,base.state_th_047
+district_pr_007,Wang Chin,PR-5407,base.state_th_047
+district_pr_008,Nong Muang Khai,PR-5408,base.state_th_047
+district_nn_001,Mueang Nan,NN-5501,base.state_th_032
+district_nn_002,Phu Phiang,NN-5502,base.state_th_032
+district_nn_003,Wiang Sa,NN-5503,base.state_th_032
+district_nn_004,Pua,NN-5504,base.state_th_032
+district_nn_005,Thung Chang,NN-5505,base.state_th_032
+district_nn_006,Tha Wang Pha,NN-5506,base.state_th_032
+district_nn_007,Na Noi,NN-5507,base.state_th_032
+district_nn_008,Chiang Klang,NN-5508,base.state_th_032
+district_nn_009,Song Khwae,NN-5509,base.state_th_032
+district_nn_010,Chaloem Phra Kiat,NN-5510,base.state_th_032
+district_nn_011,Mae Charim,NN-5511,base.state_th_032
+district_nn_012,Na Muen,NN-5512,base.state_th_032
+district_nn_013,Ban Luang,NN-5513,base.state_th_032
+district_nn_014,Santisuk,NN-5514,base.state_th_032
+district_nn_015,Bo Kluea,NN-5515,base.state_th_041
+district_py_001,Mueang Phayao,PY-5601,base.state_th_041
+district_py_002,Phu Kamyao,PY-5602,base.state_th_041
+district_py_003,Chiang Kham,PY-5603,base.state_th_041
+district_py_004,Phu Sang,PY-5604,base.state_th_041
+district_py_005,Dok Kham Tai,PY-5605,base.state_th_041
+district_py_006,Mae Chai,PY-5606,base.state_th_041
+district_py_007,Pong,PY-5607,base.state_th_041
+district_py_008,Chun,PY-5608,base.state_th_041
+district_py_009,Chiang Muan,PY-5609,base.state_th_011
+district_cr_001,Mae Lao,CR-5701,base.state_th_011
+district_cr_002,Mueang Chiang Rai,CR-5702,base.state_th_011
+district_cr_003,Doi Luang,CR-5703,base.state_th_011
+district_cr_004,Mae Chan,CR-5704,base.state_th_011
+district_cr_005,Mae Fa Luang,CR-5705,base.state_th_011
+district_cr_006,Phan,CR-5706,base.state_th_011
+district_cr_007,Mae Sai,CR-5707,base.state_th_011
+district_cr_008,Chiang Khong,CR-5708,base.state_th_011
+district_cr_009,Chiang Saen,CR-5709,base.state_th_011
+district_cr_010,Thoeng,CR-5710,base.state_th_011
+district_cr_011,Wiang Pa Pao,CR-5711,base.state_th_011
+district_cr_012,Mae Suai,CR-5712,base.state_th_011
+district_cr_013,Pa Daet,CR-5713,base.state_th_011
+district_cr_014,Wiang Chiang Rung,CR-5714,base.state_th_011
+district_cr_015,Wiang Chai,CR-5715,base.state_th_011
+district_cr_016,Phaya Mengrai,CR-5716,base.state_th_011
+district_cr_017,Wiang Kaen,CR-5717,base.state_th_011
+district_cr_018,Khun Tan,CR-5718,base.state_th_023
+district_ms_001,Mueang Mae Hong Son,MS-5801,base.state_th_023
+district_ms_002,Mae Sariang,MS-5802,base.state_th_023
+district_ms_003,Sop Moei,MS-5803,base.state_th_023
+district_ms_004,Mae La Noi,MS-5804,base.state_th_010
+district_cm_024,Kalyani Wattana,CM-5001,base.state_th_023
+district_ms_005,Pai,MS-5805,base.state_th_023
+district_ms_006,Khun Yuam,MS-5806,base.state_th_023
+district_ms_007,Pang Mapha,MS-5807,base.state_th_030
+district_ms_008,Mueang Nakhon Sawan,MS-5808,base.state_th_030
+district_ms_009,Nong Bua,MS-5809,base.state_th_030
+district_ms_010,Chum Saeng,MS-5810,base.state_th_030
+district_ms_011,Phayuha Khiri,MS-5811,base.state_th_030
+district_ms_012,Tak Li,MS-5812,base.state_th_030
+district_ms_013,Mae Wong,MS-5813,base.state_th_030
+district_ms_014,Mae Poen,MS-5814,base.state_th_030
+district_ms_015,Lat Yao,MS-5815,base.state_th_030
+district_ms_016,Chum Ta Bong,MS-5816,base.state_th_030
+district_ms_017,Tha Tako,MS-5817,base.state_th_030
+district_ms_018,Krok Phra,MS-5818,base.state_th_030
+district_ms_019,Banphot Phisai,MS-5819,base.state_th_030
+district_ms_020,Tak Fa,MS-5820,base.state_th_030
+district_ms_021,Phaisali,MS-5821,base.state_th_030
+district_ms_022,Kao Liao,MS-5822,base.state_th_074
+district_ut_010,Mueang Uthai Thani,UT-6101,base.state_th_074
+district_ut_011,Nong Chang,UT-6102,base.state_th_074
+district_ut_012,Thap Than,UT-6103,base.state_th_074
+district_ut_013,Nong Khayang,UT-6104,base.state_th_074
+district_ut_014,Ban Rai,UT-6105,base.state_th_074
+district_ut_015,Sawang Arom,UT-6106,base.state_th_074
+district_ut_016,Lan Sak,UT-6107,base.state_th_074
+district_ut_017,Huai Khot,UT-6108,base.state_th_015
+district_kp_001,Kosamphi Nakhon,KP-6201,base.state_th_015
+district_kp_002,Mueang Kamphaeng Phet,KP-6202,base.state_th_015
+district_kp_003,Phran Kratai,KP-6203,base.state_th_015
+district_kp_004,Pang Sila Thong,KP-6204,base.state_th_015
+district_kp_005,Khlong Khlung,KP-6205,base.state_th_015
+district_kp_006,Khanu Woralaksaburi,KP-6206,base.state_th_015
+district_kp_007,Sai Ngam,KP-6207,base.state_th_015
+district_kp_008,Lan Krabue,KP-6208,base.state_th_015
+district_kp_009,Khlong Lan,KP-6209,base.state_th_015
+district_kp_010,Sai Thong Watthana,KP-6210,base.state_th_015
+district_kp_011,Bueng Samakkhi,KP-6211,base.state_th_069
+district_tk_001,Mueang Tak,TK-6301,base.state_th_069
+district_tk_002,Mae Sot,TK-6302,base.state_th_069
+district_tk_003,Ban Tak,TK-6303,base.state_th_069
+district_tk_004,Sam Ngao,TK-6304,base.state_th_069
+district_tk_005,Mae Ramat,TK-6305,base.state_th_069
+district_tk_006,Tha Song Yang,TK-6306,base.state_th_069
+district_tk_007,Phop Phra,TK-6307,base.state_th_069
+district_tk_008,Umphang,TK-6308,base.state_th_069
+district_tk_009,Wang Chao,TK-6309,base.state_th_065
+district_st_001,Mueang Sukhothai,ST-6401,base.state_th_065
+district_st_002,Sawankhalok,ST-6402,base.state_th_065
+district_st_003,Si Samrong,ST-6403,base.state_th_065
+district_st_004,Si Satchanalai,ST-6404,base.state_th_065
+district_st_005,Ban Dan Lan Hoi,ST-6405,base.state_th_065
+district_st_006,Thung Saliam,ST-6406,base.state_th_065
+district_st_007,Khiri Mat,ST-6407,base.state_th_065
+district_st_008,Kong Krailat,ST-6408,base.state_th_065
+district_st_009,Si Nakhon,ST-6409,base.state_th_045
+district_pl_001,Mueang Phitsanulok,PL-6501,base.state_th_045
+district_pl_002,Bang Krathum,PL-6502,base.state_th_045
+district_pl_003,Nakhon Thai,PL-6503,base.state_th_045
+district_pl_004,Wang Thong,PL-6504,base.state_th_045
+district_pl_005,Bang Rakam,PL-6505,base.state_th_045
+district_pl_006,Phrom Phiram,PL-6506,base.state_th_045
+district_pl_007,Wat Bot,PL-6507,base.state_th_045
+district_pl_008,Chat Trakan,PL-6508,base.state_th_045
+district_pl_009,Noen Maprang,PL-6509,base.state_th_044
+district_pc_001,Mueang Phichit,PC-6601,base.state_th_044
+district_pc_002,Taphan Hin,PC-6602,base.state_th_044
+district_pc_003,Bang Mun Nak,PC-6603,base.state_th_044
+district_pc_004,Pho Thale,PC-6604,base.state_th_044
+district_pc_005,Bueng Na Rang,PC-6605,base.state_th_044
+district_pc_006,Sam Ngam,PC-6606,base.state_th_044
+district_pc_007,Wachirabarami,PC-6607,base.state_th_044
+district_pc_008,Thap Khlo,PC-6608,base.state_th_044
+district_pc_009,Sak Lek,PC-6609,base.state_th_044
+district_pc_010,Wang Sai Phun,PC-6610,base.state_th_044
+district_pc_011,Pho Prathap Chang,PC-6611,base.state_th_044
+district_pc_012,Dong Charoen,PC-6612,base.state_th_042
+district_pb_008,Mueang Phetchabun,PB-6701,base.state_th_042
+district_pb_009,Lom Sak,PB-6702,base.state_th_042
+district_pb_010,Lom Kao,PB-6703,base.state_th_042
+district_pb_011,Wichian Buri,PB-6704,base.state_th_042
+district_pb_012,Nong Phai,PB-6705,base.state_th_042
+district_pb_013,Chon Daen,PB-6706,base.state_th_042
+district_pb_014,Bueng Sam Phan,PB-6707,base.state_th_042
+district_pb_015,Si Thep,PB-6708,base.state_th_042
+district_pb_016,Wang Pong,PB-6709,base.state_th_042
+district_pb_017,Nam Nao,PB-6710,base.state_th_042
+district_pb_018,Khao Kho,PB-6711,base.state_th_052
+district_rb_001,Mueang Ratchaburi,RB-7001,base.state_th_052
+district_rb_002,Ban Pong,RB-7002,base.state_th_052
+district_rb_003,Photharam,RB-7003,base.state_th_052
+district_rb_004,Damnoen Saduak,RB-7004,base.state_th_052
+district_rb_005,Pak Tho,RB-7005,base.state_th_052
+district_rb_006,Chom Bueng,RB-7006,base.state_th_052
+district_rb_007,Bang Phae,RB-7007,base.state_th_052
+district_rb_008,Wat Phleng,RB-7008,base.state_th_052
+district_rb_009,Ban Kha,RB-7009,base.state_th_052
+district_rb_010,Suan Phueng,RB-7010,base.state_th_016
+district_kc_001,Tha Maka,KC-7101,base.state_th_058
+district_sk_010,Ban Phaeo,SK-7401,base.state_th_016
+district_kc_002,Mueang Kanchanaburi,KC-7101,base.state_th_016
+district_kc_003,Tha Muang,KC-7102,base.state_th_016
+district_kc_004,Phanom Thuan,KC-7103,base.state_th_016
+district_kc_005,Sai Yok,KC-7104,base.state_th_016
+district_kc_006,Bo Phloi,KC-7105,base.state_th_016
+district_kc_007,Huai Krachao,KC-7106,base.state_th_066
+district_sp_007,Song Phi Nong,SP-7201,base.state_th_066
+district_sp_008,U Thong,SP-7202,base.state_th_016
+district_kc_008,Thong Pha Phum,KC-7107,base.state_th_016
+district_kc_009,Lao Khwan,KC-7108,base.state_th_016
+district_kc_010,Nong Prue,KC-7109,base.state_th_016
+district_kc_011,Si Sawat,KC-7110,base.state_th_016
+district_kc_012,Sangkhla Buri,KC-7111,base.state_th_016
+district_kc_013,Dan Makham Tia,KC-7112,base.state_th_066
+district_sp_009,Mueang Suphan Buri,SP-7201,base.state_th_066
+district_sp_010,Doem Bang Nang Buat,SP-7202,base.state_th_066
+district_sp_011,Sam Chuk,SP-7203,base.state_th_066
+district_sp_012,Si Prachan,SP-7204,base.state_th_066
+district_sp_013,Bang Pla Ma,SP-7205,base.state_th_066
+district_sp_014,Don Chedi,SP-7206,base.state_th_066
+district_sp_015,Dan Chang,SP-7207,base.state_th_066
+district_sp_016,Nong Ya Sai,SP-7208,base.state_th_027
+district_np_013,Mueang Nakhon Pathom,NP-7301,base.state_th_027
+district_np_014,Sam Phran,NP-7302,base.state_th_027
+district_np_015,Nakhon Chai Si,NP-7303,base.state_th_027
+district_np_016,Bang Len,NP-7304,base.state_th_027
+district_np_017,Kamphaeng Saen,NP-7305,base.state_th_027
+district_np_018,Don Tum,NP-7306,base.state_th_027
+district_np_019,Phutthamonthon,NP-7307,base.state_th_058
+district_sk_011,Mueang Samut Sakhon,SK-7402,base.state_th_058
+district_sk_012,Krathum Baen,SK-7403,base.state_th_059
+district_ss_023,Mueang Samut Songkhram,SS-7501,base.state_th_059
+district_ss_024,Amphawa,SS-7502,base.state_th_059
+district_ss_025,Bang Khonthi,SS-7503,base.state_th_043
+district_ss_026,Mueang Phetchaburi,SS-7504,base.state_th_043
+district_ss_027,Ban Laem,SS-7505,base.state_th_043
+district_ss_028,Cha-am,SS-7506,base.state_th_043
+district_ss_029,Tha Yang,SS-7507,base.state_th_043
+district_ss_030,Khao Yoi,SS-7508,base.state_th_043
+district_ss_031,Ban Lat,SS-7509,base.state_th_043
+district_ss_032,Nong Ya Plong,SS-7510,base.state_th_043
+district_ss_033,Kaeng Krachan,SS-7511,base.state_th_050
+district_pk_001,Mueang Prachuap Khiri Khan,PK-7701,base.state_th_050
+district_pk_002,Hua Hin,PK-7702,base.state_th_050
+district_pk_003,Pranburi,PK-7703,base.state_th_050
+district_pk_004,Sam Roi Yot,PK-7704,base.state_th_050
+district_pk_005,Thap Sakae,PK-7705,base.state_th_050
+district_pk_006,Bang Saphan,PK-7706,base.state_th_050
+district_pk_007,Kui Buri,PK-7707,base.state_th_050
+district_pk_008,Bang Saphan Noi,PK-7708,base.state_th_031
+district_nt_001,Mueang Nakhon Si Thammarat,NT-8001,base.state_th_031
+district_nt_002,Phraprom,NT-8002,base.state_th_031
+district_nt_003,Thung Song,NT-8003,base.state_th_031
+district_nt_004,Sichon,NT-8004,base.state_th_031
+district_nt_005,Chulabhorn,NT-8005,base.state_th_031
+district_nt_006,Ron Phibun,NT-8006,base.state_th_031
+district_nt_007,Pak Phanang,NT-8007,base.state_th_031
+district_nt_008,Chawang,NT-8008,base.state_th_031
+district_nt_009,Tha Sala,NT-8009,base.state_th_031
+district_nt_010,Nopphitam,NT-8010,base.state_th_031
+district_nt_011,Hua Sai,NT-8011,base.state_th_031
+district_nt_012,Chaowaet,NT-8012,base.state_th_031
+district_nt_013,Chian Yai,NT-8013,base.state_th_031
+district_nt_014,Khanom,NT-8014,base.state_th_031
+district_nt_015,Na Bon,NT-8015,base.state_th_031
+district_nt_016,Chang Klang,NT-8016,base.state_th_031
+district_nt_017,Lan Saka,NT-8017,base.state_th_018
+district_nt_018,Khao Phanom,NT-8018,base.state_th_031
+district_nt_019,Thung Yai,NT-8019,base.state_th_031
+district_nt_020,Tham Phannara,NT-8020,base.state_th_031
+district_nt_021,Phipun,NT-8021,base.state_th_031
+district_nt_022,Phrom Khiri,NT-8022,base.state_th_031
+district_nt_023,Bang Khan,NT-8023,base.state_th_018
+district_kb_001,Mueang Krabi,KB-8101,base.state_th_018
+district_kb_002,Ao Luek,KB-8102,base.state_th_018
+district_kb_003,Khlong Thom,KB-8103,base.state_th_018
+district_kb_004,Ko Lanta,KB-8104,base.state_th_018
+district_kb_005,Nuea Khlong,KB-8105,base.state_th_018
+district_kb_006,Plai Phraya,KB-8106,base.state_th_018
+district_kb_007,Lam Thap,KB-8107,base.state_th_039
+district_pg_001,Mueang Phang Nga,PG-8201,base.state_th_039
+district_pg_002,Takua Pa,PG-8202,base.state_th_039
+district_pg_003,Thai Mueang,PG-8203,base.state_th_039
+district_pg_004,Takua Thung,PG-8204,base.state_th_039
+district_pg_005,Kapong,PG-8205,base.state_th_039
+district_pg_006,Ko Yao,PG-8206,base.state_th_039
+district_pg_007,Kapong,PG-8207,base.state_th_039
+district_pg_008,Thap Put,PG-8208,base.state_th_048
+district_pk_009,Mueang Phuket,PK-8301,base.state_th_048
+district_pk_010,Thalang,PK-8302,base.state_th_048
+district_pk_011,Kathu,PK-8303,base.state_th_067
+district_st_010,Mueang Surat Thani,ST-8401,base.state_th_067
+district_st_011,Chaiya,ST-8402,base.state_th_067
+district_st_012,Ban Na San,ST-8403,base.state_th_067
+district_st_013,Phunphin,ST-8404,base.state_th_067
+district_st_014,Ko Samui,ST-8405,base.state_th_067
+district_st_015,Tha Chang,ST-8406,base.state_th_067
+district_st_016,Kanchanadit,ST-8407,base.state_th_067
+district_st_017,Don Sak,ST-8408,base.state_th_067
+district_st_018,Tha Chana,ST-8409,base.state_th_067
+district_st_019,Khiri Rat Nikhom,ST-8410,base.state_th_067
+district_st_020,Wiang Sa,ST-8411,base.state_th_067
+district_st_021,Phra Saeng,ST-8412,base.state_th_067
+district_st_022,Khian Sa,ST-8413,base.state_th_067
+district_st_023,Ban Ta Khun,ST-8414,base.state_th_067
+district_st_024,Ban Na Doem,ST-8415,base.state_th_067
+district_st_025,Phanom,ST-8416,base.state_th_067
+district_st_026,Ko Pha-ngan,ST-8417,base.state_th_067
+district_st_027,Chai Buri,ST-8418,base.state_th_067
+district_st_028,Vibhavadi,ST-8419,base.state_th_051
+district_rn_001,Mueang Ranong,RN-8501,base.state_th_051
+district_rn_002,Kra Buri,RN-8502,base.state_th_051
+district_rn_003,Kapoe,RN-8503,base.state_th_051
+district_rn_004,Suk Samran,RN-8504,base.state_th_051
+district_rn_005,La-un,RN-8505,base.state_th_013
+district_cp_017,Mueang Chumphon,CP-8601,base.state_th_013
+district_cp_018,Lang Suan,CP-8602,base.state_th_013
+district_cp_019,Sawi,CP-8603,base.state_th_013
+district_cp_020,Tha Sae,CP-8604,base.state_th_013
+district_cp_021,Pathio,CP-8605,base.state_th_013
+district_cp_022,Lamae,CP-8606,base.state_th_013
+district_cp_023,Phato,CP-8607,base.state_th_013
+district_cp_024,Thung Tako,CP-8608,base.state_th_064
+district_sk_013,Mueang Songkhla,SK-9001,base.state_th_064
+district_sk_014,Hat Yai,SK-9002,base.state_th_064
+district_sk_015,Bang Klam,SK-9003,base.state_th_064
+district_sk_016,Khlong Hoi Khong,SK-9004,base.state_th_064
+district_sk_017,Sadao,SK-9005,base.state_th_064
+district_sk_018,Jana,SK-9006,base.state_th_064
+district_sk_019,Ranot,SK-9007,base.state_th_064
+district_sk_020,Thepha,SK-9008,base.state_th_064
+district_sk_021,Na Thawi,SK-9009,base.state_th_064
+district_sk_022,Rattaphum,SK-9010,base.state_th_064
+district_sk_023,Sathing Phra,SK-9011,base.state_th_064
+district_sk_024,Saba Yoi,SK-9012,base.state_th_064
+district_sk_025,Kuan Niang,SK-9013,base.state_th_064
+district_sk_026,Krasae Sin,SK-9014,base.state_th_064
+district_sk_027,Singhanakhon,SK-9015,base.state_th_064
+district_sk_028,Na Mom,SK-9016,base.state_th_061
+district_st_029,Mueang Satun,ST-9101,base.state_th_061
+district_st_030,La-ngu,ST-9102,base.state_th_061
+district_st_031,Thung Wa,ST-9103,base.state_th_061
+district_st_032,Kuan Kalong,ST-9104,base.state_th_061
+district_st_033,Manang,ST-9105,base.state_th_061
+district_st_034,Tha Phae,ST-9106,base.state_th_061
+district_st_035,Kuan Don,ST-9107,base.state_th_070
+district_tr_008,Mueang Trang,TR-9201,base.state_th_070
+district_tr_009,Wang Wiset,TR-9202,base.state_th_070
+district_tr_010,Sikao,TR-9203,base.state_th_070
+district_tr_011,Kantang,TR-9204,base.state_th_070
+district_tr_012,Hat Samran,TR-9205,base.state_th_070
+district_tr_013,Palian,TR-9206,base.state_th_070
+district_tr_014,Huai Yot,TR-9207,base.state_th_070
+district_tr_015,Ratsada,TR-9208,base.state_th_070
+district_tr_016,Yan Ta Khao,TR-9209,base.state_th_070
+district_tr_017,Na Yong,TR-9210,base.state_th_040
+district_pl_010,Mueang Phatthalung,PL-9301,base.state_th_040
+district_pl_011,Kong Ra,PL-9302,base.state_th_040
+district_pl_012,Si Nakharin,PL-9303,base.state_th_040
+district_pl_013,Kuan Khanun,PL-9304,base.state_th_040
+district_pl_014,Pak Phayun,PL-9305,base.state_th_040
+district_pl_015,Khao Chaison,PL-9306,base.state_th_040
+district_pl_016,Bang Kaeo,PL-9307,base.state_th_040
+district_pl_017,Tamot,PL-9308,base.state_th_040
+district_pl_018,Pa Bon,PL-9309,base.state_th_040
+district_pl_019,Si Ban Phot,PL-9310,base.state_th_040
+district_pl_020,Pa Phayom,PL-9311,base.state_th_038
+district_pl_021,Mueang Pattani,PT-9401,base.state_th_038
+district_pl_022,Sai Buri,PT-9402,base.state_th_038
+district_pl_023,Khok Pho,PT-9403,base.state_th_038
+district_pl_024,Panare,PT-9404,base.state_th_038
+district_pl_025,Thung Yang Daeng,PT-9405,base.state_th_038
+district_pl_026,Mayo,PT-9406,base.state_th_038
+district_pl_027,Yarang,PT-9407,base.state_th_038
+district_pl_028,Yarang,PT-9408,base.state_th_038
+district_pl_029,Nong Chik,PT-9409,base.state_th_038
+district_pl_030,Mae Lan,PT-9410,base.state_th_038
+district_pl_031,Mai Kaen,PT-9411,base.state_th_038
+district_pl_032,Kapho,PT-9412,base.state_th_076
+district_yl_001,Mueang Yala,YL-9501,base.state_th_076
+district_yl_002,Krong Pinang,YL-9502,base.state_th_076
+district_yl_003,Betong,YL-9503,base.state_th_076
+district_yl_004,Yaha,YL-9504,base.state_th_076
+district_yl_005,Kabang,YL-9505,base.state_th_076
+district_yl_006,Bannang Sata,YL-9506,base.state_th_076
+district_yl_007,Thanto,YL-9507,base.state_th_076
+district_yl_008,Raman,YL-9508,base.state_th_033
+district_nw_001,Mueang Narathiwat,NW-9601,base.state_th_033
+district_nw_002,Tak Bai,NW-9602,base.state_th_033
+district_nw_003,Su-ngai Kolok,NW-9603,base.state_th_033
+district_nw_004,Cho-airong,NW-9604,base.state_th_033
+district_nw_005,Ra-ngae,NW-9605,base.state_th_033
+district_nw_006,Su-ngai Padi,NW-9606,base.state_th_033
+district_nw_007,Rueso,NW-9607,base.state_th_033
+district_nw_008,Waeng,NW-9608,base.state_th_033
+district_nw_009,Bacho,NW-9609,base.state_th_033
+district_nw_010,Yi-ngo,NW-9610,base.state_th_033
+district_nw_011,Sukhirin,NW-9611,base.state_th_033
+district_nw_012,Si Sakhon,NW-9612,base.state_th_033
+district_nw_013,Chanae,NW-9613,base.state_th_033

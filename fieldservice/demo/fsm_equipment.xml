@@ -1,0 +1,32 @@
+<odoo noupdate="1">
+    <record id="equipment_stage_1" model="fsm.stage">
+        <field name="name">In Storage</field>
+        <field name="sequence">1</field>
+        <field name="stage_type">equipment</field>
+        <field name="is_default" eval="True"/>
+        <field name="custom_color">#3498DB</field>
+    </record>
+
+    <record id="equipment_stage_2" model="fsm.stage">
+        <field name="name">In Use</field>
+        <field name="sequence">2</field>
+        <field name="stage_type">equipment</field>
+        <field name="custom_color">#27AE60</field>
+    </record>
+
+    <record id="equipment_stage_3" model="fsm.stage">
+        <field name="name">Maintenance</field>
+        <field name="sequence">3</field>
+        <field name="stage_type">equipment</field>
+        <field name="custom_color">#F39C12</field>
+    </record>
+
+    <record id="equipment_stage_4" model="fsm.stage">
+        <field name="name">Retired</field>
+        <field name="sequence">99</field>
+        <field name="stage_type">equipment</field>
+        <field name="is_closed" eval="True"/>
+        <field name="fold" eval="True"/>
+        <field name="custom_color">#7F8C8D</field>
+    </record>
+</odoo>

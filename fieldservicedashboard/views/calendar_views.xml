@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_fsm_dashboard_calendar" model="ir.ui.view">
+        <field name="name">fsm.order.dashboard.calendar</field>
+        <field name="model">fsm.order</field>
+        <field name="arch" type="xml">
+            <calendar string="Field Service Technician Schedule" date_start="scheduled_date_start" date_stop="scheduled_date_end" color="person_id" mode="week" event_open_popup="true">
+                <field name="name"/>
+                <field name="person_id" filters="1"/> <field name="stage_id"/> </calendar>
+        </field>
+    </record>
+
+    <record id="view_fsm_dashboard_search" model="ir.ui.view">
+        <field name="name">fsm.order.dashboard.search</field>
+        <field name="model">fsm.order</field>
+        <field name="arch" type="xml">
+            <search string="Search Technician Schedule">
+                <field name="name"/>
+                <field name="person_id"/> <group expand="0" string="Group By">
+                    <filter string="Assigned Technician" name="group_by_person" context="{'group_by': 'person_id'}"/> <filter string="Job Status" name="group_by_stage" context="{'group_by': 'stage_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_fsm_dashboard_calendar" model="ir.actions.act_window">
+        <field name="name">Dashboard Technician Schedule Calendar</field>
+        <field name="res_model">fsm.order</field>
+        <field name="view_mode">calendar,kanban,tree,form</field>
+        <field name="search_view_id" ref="view_fsm_dashboard_search"/>
+    </record>
+</odoo>

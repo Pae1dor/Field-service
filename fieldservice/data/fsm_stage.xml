@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!-- ===== ORDER STAGES (flow per SVG) ===== -->
+    <record id="fsm_stage_new" model="fsm.stage">
+        <field name="name">New Request</field>
+        <field name="sequence">10</field>
+        <field name="is_default" eval="True"/>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#ECF0F1</field>
+    </record>
+
+    <record id="fsm_stage_assessed" model="fsm.stage">
+        <field name="name">Assessed</field>
+        <field name="sequence">15</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#D5D8DC</field>
+    </record>
+
+    <record id="fsm_stage_stock_checked" model="fsm.stage">
+        <field name="name">Stock Checked</field>
+        <field name="sequence">20</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#AED6F1</field>
+    </record>
+
+    <record id="fsm_stage_pending_approval" model="fsm.stage">
+        <field name="name">Pending Customer Approval</field>
+        <field name="sequence">25</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#F9E79F</field>
+    </record>
+
+    <record id="fsm_stage_assigned" model="fsm.stage">
+        <field name="name">Technician Assigned</field>
+        <field name="sequence">30</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#A9DFBF</field>
+    </record>
+
+    <record id="fsm_stage_in_progress" model="fsm.stage">
+        <field name="name">In Progress</field>
+        <field name="sequence">40</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#F0B27A</field>
+    </record>
+
+    <record id="fsm_stage_closing_gate" model="fsm.stage">
+        <field name="name">Closing Gate</field>
+        <field name="sequence">60</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#E59866</field>
+    </record>
+
+    <record id="fsm_stage_invoiced" model="fsm.stage">
+        <field name="name">Invoiced</field>
+        <field name="sequence">70</field>
+        <field name="stage_type">order</field>
+        <field name="custom_color">#A9CCE3</field>
+    </record>
+
+    <record id="fsm_stage_completed" model="fsm.stage">
+        <field name="name">Completed</field>
+        <field name="sequence">80</field>
+        <field name="stage_type">order</field>
+        <field name="is_closed" eval="True"/>
+        <field name="custom_color">#7F8C8D</field>
+    </record>
+
+    <record id="fsm_stage_cancelled" model="fsm.stage">
+        <field name="name">Cancelled</field>
+        <field name="sequence">100</field>
+        <field name="fold" eval="True"/>
+        <field name="stage_type">order</field>
+        <field name="is_closed" eval="True"/>
+        <field name="custom_color">#1C2833</field>
+    </record>
+</odoo>

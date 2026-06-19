@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_fsm_pm_schedule_form" model="ir.ui.view">
+        <field name="name">fsm.pm.schedule.form</field>
+        <field name="model">fsm.pm.schedule</field>
+        <field name="arch" type="xml">
+            <form string="PM Schedule">
+                <header>
+                    <button name="action_generate_order" string="Generate Service Order"
+                            type="object" class="btn-primary"
+                            invisible="state != 'active'"/>
+                    <button name="action_deactivate" string="Deactivate"
+                            type="object" invisible="state != 'active'"/>
+                    <button name="action_activate" string="Activate"
+                            type="object" invisible="state != 'inactive'"/>
+                    <field name="state" widget="statusbar"
+                           statusbar_visible="active,inactive"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_orders" type="object"
+                                class="oe_stat_button" icon="fa-wrench">
+                            <field name="order_count" widget="statinfo" string="Orders"/>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="location_id"/>
+                            <field name="equipment_id"/>
+                            <field name="team_id"/>
+                        </group>
+                        <group>
+                            <field name="frequency_id"/>
+                            <field name="advance_days"/>
+                            <field name="last_pm_date"/>
+                            <field name="next_pm_date" readonly="1"/>
+                        </group>
+                    </group>
+                    <group string="PM Job Details">
+                        <field name="description" nolabel="1"/>
+                    </group>
+                    <notebook>
+                        <page string="Service Orders" name="orders_page">
+                            <field name="order_ids" readonly="1">
+                                <tree>
+                                    <field name="name"/>
+                                    <field name="scheduled_date_start"/>
+                                    <field name="person_id"/>
+                                    <field name="stage_id"/>
+                                    <field name="is_closed"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_fsm_pm_schedule_list" model="ir.ui.view">
+        <field name="name">fsm.pm.schedule.list</field>
+        <field name="model">fsm.pm.schedule</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="location_id"/>
+                <field name="frequency_id"/>
+                <field name="last_pm_date"/>
+                <field name="next_pm_date"/>
+                <field name="advance_days"/>
+                <field name="order_count"/>
+                <field name="state" widget="badge"
+                       decoration-success="state == 'active'"
+                       decoration-muted="state == 'inactive'"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_fsm_pm_schedule_search" model="ir.ui.view">
+        <field name="name">fsm.pm.schedule.search</field>
+        <field name="model">fsm.pm.schedule</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="location_id"/>
+                <filter string="Active" name="active" domain="[('state','=','active')]"/>
+                <filter string="Inactive" name="inactive" domain="[('state','=','inactive')]"/>
+                <separator/>
+                <filter string="PM This Month" name="this_month"
+                        domain="[('next_pm_date','&lt;=', (context_today() + relativedelta(days=30)).strftime('%Y-%m-%d'))]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_freq" string="Frequency"
+                            context="{'group_by':'frequency_id'}"/>
+                    <filter name="group_partner" string="Customer"
+                            context="{'group_by':'partner_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_fsm_pm_schedule" model="ir.actions.act_window">
+        <field name="name">PM Schedule</field>
+        <field name="res_model">fsm.pm.schedule</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_fsm_pm_schedule_search"/>
+        <field name="context">{'search_default_active': 1}</field>
+    </record>
+</odoo>

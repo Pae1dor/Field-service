@@ -1,0 +1,39 @@
+<odoo noupdate="1">
+    <!-- Worker stages -->
+    <record id="worker_stage_1" model="fsm.stage">
+        <field name="name">Available</field>
+        <field name="sequence">1</field>
+        <field name="stage_type">worker</field>
+        <field name="is_default" eval="True"/>
+        <field name="custom_color">#27AE60</field>
+    </record>
+
+    <record id="worker_stage_2" model="fsm.stage">
+        <field name="name">On Duty</field>
+        <field name="sequence">2</field>
+        <field name="stage_type">worker</field>
+        <field name="custom_color">#F39C12</field>
+    </record>
+
+    <record id="worker_stage_3" model="fsm.stage">
+        <field name="name">Off Duty</field>
+        <field name="sequence">99</field>
+        <field name="stage_type">worker</field>
+        <field name="is_closed" eval="True"/>
+        <field name="fold" eval="True"/>
+        <field name="custom_color">#7F8C8D</field>
+    </record>
+
+    <!-- Workers -->
+    <record id="person_1" model="fsm.person">
+        <field name="name">Worker 1</field>
+    </record>
+
+    <record id="person_2" model="fsm.person">
+        <field name="name">Worker 2</field>
+    </record>
+
+    <record id="person_3" model="fsm.person">
+        <field name="name">Worker 3</field>
+    </record>
+</odoo>
